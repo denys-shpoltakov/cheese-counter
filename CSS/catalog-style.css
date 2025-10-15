@@ -59,9 +59,6 @@ ul {
 }
 
 .product {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   margin-top: 5rem;
 }
@@ -95,4 +92,29 @@ ul {
 
 .card__info {
   margin-top: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footer__links {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer__bottom {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.footer__links ul {
+  gap: 1rem;
+  display: flex;
 }
