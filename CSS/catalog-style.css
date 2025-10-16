@@ -95,10 +95,15 @@ ul {
 }
 
 .footer {
+  border-top: 0.32rem solid rgb(250, 250, 0);
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 5rem;
+}
+
+.footer__top {
+  margin-top: 1rem;
 }
 
 .footer__links {
